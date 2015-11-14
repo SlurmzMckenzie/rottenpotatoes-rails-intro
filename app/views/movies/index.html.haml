@@ -12,9 +12,9 @@
 %table#movies
 	%thead
 		%tr
-			%th#title_header{:class => (@highlight_class if @sort == "title")}= link_to "Movie Title", movies_path(:sort => "title") 
+			%th{:class => (@highlight_class if @sort == "title")}= link_to "Movie Title", movies_path(:sort => "title"), id: "title_header"
 			%th Rating
-			%th#release_date_header{:class => (@highlight_class if @sort == "release_date")}= link_to "Release Date",  movies_path(:sort => "release_date")
+			%th{:class => (@highlight_class if @sort == "release_date")}= link_to "Release Date",  movies_path(:sort => "release_date"), id: "release_date_header"
 			%th More Info
 	%tbody
 		- @movies.each do |movie|
