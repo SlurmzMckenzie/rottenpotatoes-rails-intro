@@ -13,6 +13,7 @@ class MoviesController < ApplicationController
 	def index
 		@sort = params[:sort]
 		if params[:ratings] then @ratings = params[:ratings].keys end
+
 		@highlight_class = "hilite"
 
 		if @ratings.nil?
