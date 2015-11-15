@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project for CS 169
 
-Things you may want to cover:
+This application was an introduction to Ruby on Rails. 
 
-* Ruby version
+The project involved 3 main tasks
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* sorting the index table by columns
+* filtering the movies by ratings
+* storing and retrieving this information in the session and ensuring the application always maintains RESTful URLs
